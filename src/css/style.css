@@ -20,6 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: url('../img/hammer.png'), auto;
 }
 
 .goblin {
@@ -29,4 +30,34 @@
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center center; 
+}
+
+.status {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20pt;
+  font-family: Arial;
+}
+
+.panel {
+  text-align: center;
+}
+
+button {
+  min-width: 100px;
+  border: 1px solid rgb(136, 189, 14);
+  padding: 15px;
+  background-color: #fff;
+  font-size: 20pt;
+  border-radius: 15px;
+  opacity: 0.7;
+  font-family: Arial;
+}
+
+button:hover {
+  box-shadow: 2px 1px 0 rgb(0, 0, 0);
+}
+
+button:active {
+  box-shadow: inset 2px 1px 0;
 }
